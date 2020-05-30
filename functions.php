@@ -393,3 +393,12 @@ function airi_welcome_admin_notice() {
 }
 add_action( 'admin_init', array( 'PAnD', 'init' ) );
 add_action( 'admin_notices', 'airi_welcome_admin_notice' );
+/*
+add_action('wp_enqueue_scripts', 'sendinblue_tracker');
+
+function sendinblue_tracker(){
+  wp_enqueue_script('sendinblue_tracker', get_template_directory_uri().'/tracking.js', array(), '', null, true);
+}
+*/
+?>
+

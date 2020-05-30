@@ -51,30 +51,101 @@ body {
   font-size: 16px;
 }
 
-.font-green {
+.full-width {
+  width: 100vw;
+}
+
+.font-green-on-dark-bg {
   color: #7AA55A !important;
 }
 
-.background-green {
-  color: #548235 !important;
+.font-green-on-light-bg {
+  color: #548235 !important
 }
 
-.font-gray-on-green, .background-light-gray {
+.bg-green {
+  background-color: #548235 !important;
+}
+
+.font-gray-on-green {
   color: #F2F2F2 !important;
 }
 
-.font-gray-on-dark-background, .background-gray-on-light-gray {
+.bg-light-gray {
+  background-color: #F2F2F2 !important;
+}
+
+.font-gray-on-dark-bg {
   color: #F2F2F2 !important;
 }
 
-.font-gray-on-light-background, .background-dark-gray {
+.bg-gray-on-light-gray {
+  background-color: #D2D2D2 !important;
+}
+
+.font-gray-on-light-bg {
   color: #B2B2B2 !important;
 }
 
-.background-black {
+.bg-dark-gray {
+  background-color: #B2B2B2 !important;
+}
+
+.font-black {
+  color: #151A1A !important;
+}
+
+.bg-black {
   background-color: #151A1A !important;
 }
 
+.register-newsletter-input {
+  background-color: #f2f2f2;
+}
+
+.register-newsletter-submit, .register-newsletter-submit:hover {
+    border: 2px solid #B2B2B2;
+    background-color: #B2B2B2;
+    margin-bottom: 1px;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.success-icon:before {
+  content: "\e90e";     
+  display: inline-block;     
+  font-family: eicons;     
+  font-weight: 400;     
+  font-style: normal;     
+  vertical-align: middle;     
+  margin-right: 5px; 
+}
+
+.vcenter-margins {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+#mailjetSubscriptionForm .mailjet-widget-form-group {
+  display: inline-block;    
+  margin-bottom: 0;
+  border-radius: 4px 0 0 4px;
+  width: 50%;
+}
+
+#mailjet_widget_email {
+    width: 100%;
+}
+
+#mailjetSubscriptionForm {
+    display: flex;
+}
+
+#mailjetSubscriptionForm > input[type="submit"] {
+    background-color: #B2B2B2;
+    border: 2px solid #B2B2B2;
+    border-radius: 0 4px 4px 0;
+}
+*/
 body,
 button,
 input,
